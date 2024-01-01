@@ -45,5 +45,5 @@ export class AppComponent implements OnInit{
   public saveThisToDB(person:Person):void{
     alert(" Save ID:"+person.id +" F name: "+person.fName+" L Name: "+person.lName+" car "+person.car)
   }
-  title = 'child-comp-formbased';
+  title = 'Demo chid component';
 }
